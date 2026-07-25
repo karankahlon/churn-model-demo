@@ -73,4 +73,4 @@ iface = gr.Interface(
     description="Enter customer attributes to predict the likelihood of subscription renewal."
 )
 
-iface.launch(server_name="0.0.0.0", server_port=7860)
+iface.launch(server_name="0.0.0.0", server_port=80)
